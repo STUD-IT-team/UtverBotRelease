@@ -1,0 +1,12 @@
+services:
+    bot-shitfuck:
+        container_name: bot-shitfuck
+        build:
+            context: ../
+            dockerfile: ./src/Dockerfile
+        # restart: always
+        ports: 
+            - "3012:3012"
+        env_file:
+            - app.env
+
