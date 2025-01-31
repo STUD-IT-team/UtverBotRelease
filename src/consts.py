@@ -17,7 +17,7 @@ print_text='''
 
 link_text='''
 Отправь ссылку на ЯндексДиск с утвеждаемым материалом
-В формате https://disk.yandex/d/...
+В формате https://disk.yandex.ru/d/...
 '''
 
 sent_text='''
@@ -29,4 +29,6 @@ https://docs.google.com/spreadsheets/d/1HAjKk6gcfU598X3WJfLptFXgLGbwndSRuM3dzg4e
 
 error='Некорректный ввод'
 
-yd_url='https://disk.yandex/d'
+yd_url='https://disk.yandex.ru/d/'
+
+rules_folder_path = "data"

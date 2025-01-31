@@ -10,6 +10,9 @@ COPY ./src/*.py .
 RUN mkdir creds
 COPY ./creds/credentials.json creds
 
+RUN mkdir data
+COPY ./data/* data
+
 RUN pip install -r requirements.txt
 
 EXPOSE 3012
