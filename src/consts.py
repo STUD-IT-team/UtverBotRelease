@@ -8,6 +8,9 @@ what_text='''
 Например: Благодарности Media BMSTU
 '''
 
+status_text='''
+Статус утверждения можно проверить по ссылке:\n\nhttps://docs.google.com/spreadsheets/d/1HAjKk6gcfU598X3WJfLptFXgLGbwndSRuM3dzg4etJI/edit?gid=0#gid=0'''
+
 print_text='''
 Необходима ли печать в типографии?
 '''
@@ -19,7 +22,9 @@ link_text='''
 
 sent_text='''
 Твои материалы отправлены на утверждение!
-Его статус можешь посмотреть по ссылке: bit.ly/utverstuden
+Его статус можешь посмотреть по ссылке:
+
+https://docs.google.com/spreadsheets/d/1HAjKk6gcfU598X3WJfLptFXgLGbwndSRuM3dzg4etJI/edit?gid=0#gid=0
 '''
 
 error='Некорректный ввод'

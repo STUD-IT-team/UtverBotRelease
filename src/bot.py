@@ -27,6 +27,12 @@ class UserStates(StatesGroup):
     Print = State()
     Link = State()
 
+@router.message(Command("status"))
+async def command_send_handler(message: Message, state: FSMContext):
+    await message.answer(text=status_text, reply_markup=ReplyKeyboardRemove())
+    await state.clear()
+
+
 @router.message(Command("send"))
 async def command_send_handler(message: Message, state: FSMContext):
     await message.answer(text=what_text, reply_markup=ReplyKeyboardRemove())

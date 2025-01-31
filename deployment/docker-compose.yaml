@@ -6,7 +6,7 @@ services:
             dockerfile: ./src/Dockerfile
         # restart: always
         ports: 
-            - "3012:3012"
+            - "3016:3016"
         env_file:
             - app.env
 
